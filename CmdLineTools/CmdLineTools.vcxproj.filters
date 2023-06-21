@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Args">
+      <UniqueIdentifier>{e6929ad5-abf5-44d5-80c9-09d9b4de0b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Args">
+      <UniqueIdentifier>{fb4d6917-200f-4b2b-b0b1-786ed200c8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Export">
+      <UniqueIdentifier>{d4594895-10d3-4bcb-8b66-a21f33afcd10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Common">
+      <UniqueIdentifier>{8dccd850-f854-4761-9710-dbf0e2f6fb73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Runnable">
+      <UniqueIdentifier>{f396efb6-bf42-4baf-9652-1180482e3a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CmdLine">
+      <UniqueIdentifier>{5b19a69a-28e4-4de1-8544-929956b18a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\CmdLine">
+      <UniqueIdentifier>{2da20eac-569c-47a7-a342-dddad108076d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CharArgs.h">
+      <Filter>헤더 파일\Args</Filter>
+    </ClInclude>
+    <ClInclude Include="StringArgs.h">
+      <Filter>헤더 파일\Args</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdLineTools.h">
+      <Filter>헤더 파일\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="api.h">
+      <Filter>헤더 파일\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="ICmdNode.h">
+      <Filter>헤더 파일\CmdLine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Common\ArgsAdditional.h">
+      <Filter>헤더 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Common\IArgs.h">
+      <Filter>헤더 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Common\ICmdOptions.h">
+      <Filter>헤더 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Common\typedef.h">
+      <Filter>헤더 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Common\IRunnable.h">
+      <Filter>헤더 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicRunnable.h">
+      <Filter>헤더 파일\Runnable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Common\ICmdLineParser.h">
+      <Filter>헤더 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdLineParser.h">
+      <Filter>헤더 파일\CmdLine</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdNode.h">
+      <Filter>헤더 파일\CmdLine</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdOptions.h">
+      <Filter>헤더 파일\CmdLine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CharArgs.cpp">
+      <Filter>소스 파일\Args</Filter>
+    </ClCompile>
+    <ClCompile Include="StringArgs.cpp">
+      <Filter>소스 파일\Args</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdLineTools.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdLineParser.cpp">
+      <Filter>소스 파일\CmdLine</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdNode.cpp">
+      <Filter>소스 파일\CmdLine</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicRunnable.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdOptions.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
